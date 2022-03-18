@@ -1,0 +1,11 @@
+@import 'color';
+
+@mixin transition ($transistion: all, $time: 0.5s) {
+    transition: $transistion;
+    transition-duration: $time;
+}
+
+@mixin animation {
+    border-left: 2px solid $jaune;
+    padding-left: 10px;
+}
